@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.UUID;
 
 /**
+ * jdk6时的perm取内存溢出
  * VM Args:-XX:PermSize=10M-XX:MaxPermSize=10M -XX:+HeapDumpOnOutOfMemoryError -verbose:gc -XX:+PrintGCDetails
  *
  * @author zzm

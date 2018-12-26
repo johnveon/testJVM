@@ -3,6 +3,7 @@ package stackoverflow;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
+ * 线程栈导致的内存溢出
  * VM Args:-Xss2M(这时候不妨设置大些)
  *
  * @author zzm

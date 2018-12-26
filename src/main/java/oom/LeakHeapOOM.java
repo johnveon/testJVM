@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * jvm内存泄漏
  * VM Args:-Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  *
  * @author zhoufe
